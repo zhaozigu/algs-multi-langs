@@ -1,8 +1,11 @@
 cc_library(
   name = "bitree",
   copts = ["-g", "-Wall", "-O3"],
-  hdrs = ["bitree.h"],
-  srcs = ["bitree.c"],
+  hdrs = ["bitree.h", "traverse.h"],
+  srcs = ["bitree.c", "traverse.c"],
+  deps = [
+    "//src/list:list",
+  ]
 )
 
 cc_binary(

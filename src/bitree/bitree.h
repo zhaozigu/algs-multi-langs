@@ -7,10 +7,6 @@
 
 #include <stdlib.h>
 
-/** \mainpage
-二叉树最多只有两个结点。在计算机科学中，使用频率非常高，因为多叉树都可以使用二叉树进行表示。 
-*/
-
 /// 二叉树节点结构
 typedef struct BiTreeNode_
 {

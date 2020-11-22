@@ -3,6 +3,7 @@ cc_library(
   copts = ["-g", "-Wall", "-O3"],
   hdrs = ["list.h"],
   srcs = ["list.c"],
+  visibility = ["//src:__subpackages__"],
 )
 
 cc_binary(
