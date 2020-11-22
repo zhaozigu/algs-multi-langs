@@ -1,16 +1,19 @@
 // http://poj.org/problem?id=1004
 #include <cstdio>
 
+// 提交代码记得拷贝代码
+#include "poj1004.hpp"
+
 int main()
 {
-  double avg, sum = 0.0, a[12] = {0};
+  double temp;
+  Solve solve;
   for (int i = 0; i < 12; i++)
   {
-    scanf("%lf", &a[i]);
-    sum += a[i];
+    scanf("%lf", &temp);
+    solve.Add(temp);
   }
-  avg = sum / 12;
 
-  printf("$%.2f\n", avg);
+  printf("$%.2f\n", solve.GetAvg());
   return 0;
 }

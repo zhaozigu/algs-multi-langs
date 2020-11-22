@@ -3,6 +3,8 @@
 #include <string>
 #include <algorithm>
 
+#include "poj1007.hpp"
+
 using namespace std;
 // 使用C++STL中的string，不需要规定n
 const int kMaxM = 101;
@@ -17,33 +19,6 @@ typedef struct DNAInfo_
 
 DNAInfo a[kMaxM];
 
-void Swap(char &a, char &b)
-{
-  char temp = a;
-  a = b;
-  b = temp;
-}
-
-// 返回逆序数
-int Stat(string s)
-{
-  int count = 0;
-  int len = s.length();
-  // 冒泡排序
-  for (int i = 0; i < len - 1; i++)
-  {
-    for (int j = 0; j < len - 1 - i; j++)
-    {
-      if (s[j] > s[j + 1])
-      {
-        Swap(s[j], s[j + 1]);
-        ++count;
-      }
-    }
-  }
-  return count;
-}
-
 bool cmp(const DNAInfo &a, const DNAInfo &b)
 {
   return a.x < b.x;
@@ -53,10 +28,12 @@ int main()
 {
   cin >> n >> m;
 
+  Solve solve;
+
   for (int i = 0; i < m; i++)
   {
     cin >> a[i].s;
-    a[i].x = Stat(a[i].s);
+    a[i].x = solve.Stat(a[i].s);
   }
 
   sort(a, a + m, cmp);
