@@ -39,3 +39,11 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+cc_test(
+  name = "fib_benchmark",
+  srcs = ["fib_benchmark.cc"],
+  deps = [
+    "@com_google_benchmark//:benchmark_main",
+  ]
+)

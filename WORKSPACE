@@ -30,3 +30,11 @@ junit_jupiter_java_repositories(
 junit_platform_java_repositories(
     version = JUNIT_PLATFORM_VERSION,
 )
+
+# Google Benchmark
+http_archive(
+  name = "com_google_benchmark",
+  urls = ["https://codeload.github.com/google/benchmark/zip/v1.5.2.zip"],
+  strip_prefix = "benchmark-1.5.2",
+  sha256 = "21e6e096c9a9a88076b46bd38c33660f565fa050ca427125f64c4a8bf60f336b",
+)

@@ -9,7 +9,6 @@ void sample_test(const BiTree *bitree, TraverseFunc traverse)
   List list;
   list_init(&list, NULL);
   traverse(bitree_root(bitree), &list);
-  // 后序遍历
   printf("%d -> %d -> %d\n",
          (int)list_data(list_head(&list)),
          (int)list_data(list_next(list_head(&list))),
