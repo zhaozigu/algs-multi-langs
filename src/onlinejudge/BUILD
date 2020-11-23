@@ -80,3 +80,31 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+
+# POJ1207: The 3n + 1 problem
+cc_library(
+  name = "poj1207_solve",
+  hdrs = ["poj1207.hpp"]
+)
+
+cc_binary(
+  name = "poj1207",
+  srcs = [
+    "poj1207.cc"
+  ],
+  deps = [
+    ":poj1207_solve"
+  ]
+)
+
+cc_test(
+  name = "poj1207_test",
+  srcs = [
+    "poj1207_test.cc"
+  ],
+  deps = [
+    ":poj1207_solve",
+    "@com_google_googletest//:gtest_main",
+  ]
+)

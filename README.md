@@ -59,3 +59,4 @@ Online Judge 的代码为了便于测试，会使用类 `Solve` 统一包装解�
 | [POJ1004 Financial Management](http://poj.org/problem?id=1004) | [POJ1004](src/onlinejudge/poj1004.hpp) | 简单题，求平均数                 |
 | [POJ1007 DNA Sorting](http://poj.org/problem?id=1007)          | [POJ1007](src/onlinejudge/poj1007.hpp) | 简单题，逆序数（TODO: 多种解法） |
 | [POJ1012 Joseph](http://poj.org/problem?id=1012)               | [POJ1012](src/onlinejudge/poj1012.hpp) | 简单题，约瑟夫环                 |
+| [POJ1207 The 3n+1 problem](http://poj.org/problem?id=1207)     | [POJ1207](src/onlinejudge/poj1207.hpp) | 简单题，循环                     |
