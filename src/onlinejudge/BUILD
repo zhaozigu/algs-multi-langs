@@ -136,3 +136,31 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+
+# POJ1338: Ugly Numbers
+cc_library(
+  name = "poj1338_solve",
+  hdrs = ["poj1338.hpp"]
+)
+
+cc_binary(
+  name = "poj1338",
+  srcs = [
+    "poj1338.cc"
+  ],
+  deps = [
+    ":poj1338_solve"
+  ]
+)
+
+cc_test(
+  name = "poj1338_test",
+  srcs = [
+    "poj1338_test.cc"
+  ],
+  deps = [
+    ":poj1338_solve",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
