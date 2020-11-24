@@ -1,5 +1,4 @@
 // http://poj.org/problem?id=1258
-#include <algorithm>
 #include <iostream>
 
 #include "poj1258.hpp"
