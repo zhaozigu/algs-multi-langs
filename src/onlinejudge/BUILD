@@ -108,3 +108,31 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+
+# POJ1258: Agri-Net
+cc_library(
+  name = "poj1258_solve",
+  hdrs = ["poj1258.hpp"]
+)
+
+cc_binary(
+  name = "poj1258",
+  srcs = [
+    "poj1258.cc"
+  ],
+  deps = [
+    ":poj1258_solve"
+  ]
+)
+
+cc_test(
+  name = "poj1258_test",
+  srcs = [
+    "poj1258_test.cc"
+  ],
+  deps = [
+    ":poj1258_solve",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
