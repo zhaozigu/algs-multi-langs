@@ -30,7 +30,6 @@ private:
 
   void solve()
   {
-    // 离线求解前1500个ugly number
     for (int i = 2; i <= n; i++)
     {
       int v2 = uglys[p2] * 2;

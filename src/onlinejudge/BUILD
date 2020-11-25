@@ -164,3 +164,31 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+
+# POJ1363: Rails
+cc_library(
+  name = "poj1363_solve",
+  hdrs = ["poj1363.hpp"]
+)
+
+cc_binary(
+  name = "poj1363",
+  srcs = [
+    "poj1363.cc"
+  ],
+  deps = [
+    ":poj1363_solve"
+  ]
+)
+
+cc_test(
+  name = "poj1363_test",
+  srcs = [
+    "poj1363_test.cc"
+  ],
+  deps = [
+    ":poj1363_solve",
+    "@com_google_googletest//:gtest_main",
+  ]
+)

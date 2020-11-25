@@ -62,3 +62,4 @@ Online Judge 的代码为了便于测试，会使用类 `Solve` 统一包装解�
 | [POJ1207 The 3n+1 problem](http://poj.org/problem?id=1207)     | [POJ1207](src/onlinejudge/poj1207.hpp) | 简单题，循环                     |
 | [POJ1258 Agri-Net](http://poj.org/problem?id=1258)             | [POJ1258](src/onlinejudge/poj1258.hpp) | 图论，Prim                       |
 | [POJ1338 Ugly Numbers](http://poj.org/problem?id=1338)         | [POJ1338](src/onlinejudge/poj1338.hpp) | 枚举；队列；                     |
+| [POJ1363 Rails](http://poj.org/problem?id=1363)                | [POJ1363](src/onlinejudge/poj1363.hpp) | 栈                               |
