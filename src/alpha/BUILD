@@ -1,5 +1,15 @@
 load("//:junit5.bzl", "java_junit5_test")
 
+java_binary(
+  name = "AlgsDrawExample",
+  srcs = [
+    "AlgsDrawExample.java"
+  ],
+  deps = [
+    "//third_party:algs4"
+  ]
+)
+
 java_library(
   name = "myadd_java",
   srcs = ["MyAdd.java"],
