@@ -1,6 +1,20 @@
 load("//:junit5.bzl", "java_junit5_test")
 
 java_binary(
+  name = "BinarySearch",
+  srcs = [
+    "BinarySearch.java"
+  ], 
+  deps = [
+    "//third_party:algs4"
+  ],
+  data = [
+    "//algs4_data:tinyW.txt",
+    "//algs4_data:tinyT.txt",
+  ]
+)
+
+java_binary(
   name = "AlgsDrawExample",
   srcs = [
     "AlgsDrawExample.java"
