@@ -1,3 +1,18 @@
+# Leetcode 通用树结点
+cc_library(
+  name = "leetcode_tree_node",
+  hdrs = ["treenode.hpp"],
+)
+
+cc_test(
+  name = "treenode_test",
+  srcs = ["treenode_test.cc"],
+  deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 100: Same Tree
 cc_test(
   name = "leetcode100",
@@ -5,6 +20,19 @@ cc_test(
     "leetcode100_same_tree.cc"
   ],
   deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
+# Leetcode 104: Maximum Depth of Binary Tree
+cc_test(
+  name = "leetcode104",
+  srcs = [
+    "leetcode104_maximum_depth_of_binary_tree.cc"
+  ],
+  deps = [
+    ":leetcode_tree_node",
     "@com_google_googletest//:gtest_main",
   ]
 )

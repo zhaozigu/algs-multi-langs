@@ -98,9 +98,10 @@ TODO: 收集、整理 Online Judge、各类面试题的解决方案。
 
 LeetCode 上的题目都是测试友好型的，提供的代码框架已经分离了 IO。因此解法和测试用例可以放到一起。
 
-| 题目                                                                | 参考解法                                     | 备注                 |
-| ------------------------------------------------------------------- | -------------------------------------------- | -------------------- |
-| [LeetCode100 Same Tree](https://leetcode-cn.com/problems/same-tree) | [C++](src/leetcode/leetcode100_same_tree.cc) | 基本二叉树性质；递归 |
+| 题目                                                                                                       | 参考解法                                                        | 备注                 |
+| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | -------------------- |
+| [LeetCode100 Same Tree](https://leetcode-cn.com/problems/same-tree/)                                       | [C++](src/leetcode/leetcode100_same_tree.cc)                    | 基本二叉树性质；递归 |
+| [LeetCode104 Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [C++](src/leetcode/leetcode104_maximum_depth_of_binary_tree.cc) | 基本二叉树性质；递归 |
 
 #### 面试题解法
 
