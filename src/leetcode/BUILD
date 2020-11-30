@@ -49,6 +49,18 @@ cc_test(
   ]
 )
 
+# Leetcode 226: Invert Binary Tree
+cc_test(
+  name = "leetcode226",
+  srcs = [
+    "leetcode226_invert_binary_tree.cc"
+  ],
+  deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 292: Nim Game
 cc_test(
   name = "leetcode292",
