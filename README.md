@@ -8,7 +8,7 @@
 
 算法是最适合使用 TDD 进行设计和开发的。因此在 [alpha](src/alpha) 目录中提供使用单元测试的方法，可以作为参考。C++ 使用的是 [googletest](https://github.com/google/googletest) 进行单元测试；Java 当然是 JUnit5；Python 直接使用内置的标准库模块 `unittest`。
 
-除了测试，文档也是非常有必要的。目前尝试使用 Doxygen 作为一个通用的文档生成工具（主要针对 C/C++）。
+除了测试，文档也是非常有必要的。目前尝试使用 Doxygen 作为一个通用的文档生成工具（主要针对 C/C++）。例如，在 [二叉树](src/bitree) 中有 Doxyfile 文件（[TreeDoxyfile](src/bitree/TreeDoxyfile)。可以使用 `Doxygen TreeDoxyfile` 生成文档。
 
 ## 使用方式
 
@@ -88,11 +88,13 @@ bazel test src/alpha:MyAddTests_Cpp
 
 ### 算法
 
-TODO: 各类基础算法的实现。
+各类基础算法的实现。
+
+- [快速排序](src/sort/qksort.c)
 
 ### 解法
 
-TODO: 收集、整理 Online Judge、各类面试题的解决方案。
+收集、整理 Online Judge、各类面试题的解决方案。
 
 #### Leetcode
 
