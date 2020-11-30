@@ -102,6 +102,7 @@ LeetCode 上的题目都是测试友好型的，提供的代码框架已经分�
 | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | -------------------- |
 | [LeetCode100 Same Tree](https://leetcode-cn.com/problems/same-tree/)                                       | [C++](src/leetcode/leetcode100_same_tree.cc)                    | 基本二叉树性质；递归 |
 | [LeetCode104 Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [C++](src/leetcode/leetcode104_maximum_depth_of_binary_tree.cc) | 基本二叉树性质；递归 |
+| [LeetCode111 Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [C++](src/leetcode/leetcode111_minimum_depth_of_binary_tree.cc) | 基本二叉树性质；递归 |
 
 #### 面试题解法
 

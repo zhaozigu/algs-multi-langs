@@ -36,3 +36,15 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+# Leetcode 111: Minimum Depth of Binary Tree
+cc_test(
+  name = "leetcode111",
+  srcs = [
+    "leetcode111_minimum_depth_of_binary_tree.cc"
+  ],
+  deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)

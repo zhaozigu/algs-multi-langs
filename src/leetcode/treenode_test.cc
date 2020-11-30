@@ -36,3 +36,10 @@ TEST(treenode, BuildTreeFromHeadIncludeNullptr)
   ASSERT_EQ(nullptr, BuildTree(nodes)->left->right);
   ASSERT_EQ(15, BuildTree(nodes)->right->left->val);
 }
+
+TEST(treenode, BuildTreeFromHeadIncludeMultiNullptr)
+{
+  HeapTree nodes = {TNode(2), nullptr, TNode(3), nullptr, TNode(4), nullptr, TNode(5), nullptr, TNode(6)};
+
+  ASSERT_EQ(4, BuildTree(nodes)->right->right->val);
+}
