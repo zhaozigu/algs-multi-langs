@@ -48,3 +48,14 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+# Leetcode 292: Nim Game
+cc_test(
+  name = "leetcode292",
+  srcs = [
+    "leetcode292_nim_game.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
