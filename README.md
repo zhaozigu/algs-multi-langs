@@ -93,6 +93,8 @@ bazel test src/alpha:MyAddTests_Cpp
 - 快速排序
   - [快速排序(C)](src/sort/qksort.c)
   - [函数式写法(Python)](src/sort/qsort_functional.py) | 三行极简
+- 最大公约数
+  - [欧几里得算法](src/math/gcd.cc) | 一行代码
 
 ### 解法
 
