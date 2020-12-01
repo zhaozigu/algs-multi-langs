@@ -1,3 +1,30 @@
+# POJ1003: Hangover
+cc_library(
+  name = "poj1003_solve",
+  hdrs = ["poj1003.hpp"]
+)
+
+cc_binary(
+  name = "poj1003",
+  srcs = [
+    "poj1003.cc"
+  ],
+  deps = [
+    ":poj1003_solve"
+  ]
+)
+
+cc_test(
+  name = "poj1003_test",
+  srcs = [
+    "poj1003_test.cc"
+  ],
+  deps = [
+    ":poj1003_solve",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # POJ1004: Financial Management
 cc_library(
   name = "poj1004_solve",

@@ -127,12 +127,13 @@ Online Judge 的代码为了便于测试，会使用类 `Solve` 统一包装解�
 
 > 如果需要在对应 OJ 平台运行，把对应 `.hpp` 的文件内容拷贝到对应的执行文件中（`binary` 目标）。
 
-| 题目                                                           | 参考解法                               | 备注                             |
-| -------------------------------------------------------------- | -------------------------------------- | -------------------------------- |
-| [POJ1004 Financial Management](http://poj.org/problem?id=1004) | [POJ1004](src/onlinejudge/poj1004.hpp) | 简单题，求平均数                 |
-| [POJ1007 DNA Sorting](http://poj.org/problem?id=1007)          | [POJ1007](src/onlinejudge/poj1007.hpp) | 简单题，逆序数（TODO: 多种解法） |
-| [POJ1012 Joseph](http://poj.org/problem?id=1012)               | [POJ1012](src/onlinejudge/poj1012.hpp) | 简单题，约瑟夫环                 |
-| [POJ1207 The 3n+1 problem](http://poj.org/problem?id=1207)     | [POJ1207](src/onlinejudge/poj1207.hpp) | 简单题，循环                     |
-| [POJ1258 Agri-Net](http://poj.org/problem?id=1258)             | [POJ1258](src/onlinejudge/poj1258.hpp) | 图论，Prim                       |
-| [POJ1338 Ugly Numbers](http://poj.org/problem?id=1338)         | [POJ1338](src/onlinejudge/poj1338.hpp) | 枚举；队列；                     |
-| [POJ1363 Rails](http://poj.org/problem?id=1363)                | [POJ1363](src/onlinejudge/poj1363.hpp) | 栈                               |
+| 题目                                                                                                                                             | 参考解法                               | 备注                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------- | -------------------------------- |
+| [POJ1003 Hangover](http://poj.org/problem?id=1003)                                                                                               | [POJ1003](src/onlinejudge/poj1003.hpp) | 二分查找；递推                   |
+| [POJ1004 Financial Management](http://poj.org/problem?id=1004) 或 [ZOJ1048](https://zoj.pintia.cn/problem-sets/91827364500/problems/91827364547) | [POJ1004](src/onlinejudge/poj1004.hpp) | 简单题，求平均数                 |
+| [POJ1007 DNA Sorting](http://poj.org/problem?id=1007)                                                                                            | [POJ1007](src/onlinejudge/poj1007.hpp) | 简单题，逆序数（TODO: 多种解法） |
+| [POJ1012 Joseph](http://poj.org/problem?id=1012)                                                                                                 | [POJ1012](src/onlinejudge/poj1012.hpp) | 简单题，约瑟夫环                 |
+| [POJ1207 The 3n+1 problem](http://poj.org/problem?id=1207)                                                                                       | [POJ1207](src/onlinejudge/poj1207.hpp) | 简单题，循环                     |
+| [POJ1258 Agri-Net](http://poj.org/problem?id=1258)                                                                                               | [POJ1258](src/onlinejudge/poj1258.hpp) | 图论，Prim                       |
+| [POJ1338 Ugly Numbers](http://poj.org/problem?id=1338)                                                                                           | [POJ1338](src/onlinejudge/poj1338.hpp) | 枚举；队列                       |
+| [POJ1363 Rails](http://poj.org/problem?id=1363)                                                                                                  | [POJ1363](src/onlinejudge/poj1363.hpp) | 栈                               |
