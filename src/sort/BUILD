@@ -13,3 +13,12 @@ cc_binary(
     ":qsort",
   ],
 )
+
+# 三行代码实现快速排序
+py_test(
+  name = "qsort_functional_python",
+  srcs = [
+    "qsort_functional.py",
+  ],
+  main = "qsort_functional.py"
+)
