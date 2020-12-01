@@ -13,6 +13,21 @@ cc_test(
   ]
 )
 
+# Leetcode 通用链表结点
+cc_library(
+  name = "leetcode_link_list_node",
+  hdrs = ["linklist.hpp"],
+)
+
+cc_test(
+  name = "linklist_test",
+  srcs = ["linklist_test.cc"],
+  deps = [
+    ":leetcode_link_list_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 100: Same Tree
 cc_test(
   name = "leetcode100",
@@ -68,6 +83,18 @@ cc_test(
     "leetcode292_nim_game.cc"
   ],
   deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
+# Leetcode 237: Delete Node in a Linked List
+cc_test(
+  name = "leetcode237",
+  srcs = [
+    "leetcode237_delete_node_in_a_linked_list.cc"
+  ],
+  deps = [
+    ":leetcode_link_list_node",
     "@com_google_googletest//:gtest_main",
   ]
 )
