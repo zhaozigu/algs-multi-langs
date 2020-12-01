@@ -98,3 +98,14 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+# Leetcode 169: Majority Element
+cc_test(
+  name = "leetcode169",
+  srcs = [
+    "leetcode169_majority_element.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
