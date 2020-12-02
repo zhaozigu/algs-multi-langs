@@ -64,6 +64,17 @@ cc_test(
   ]
 )
 
+# Leetcode 169: Majority Element
+cc_test(
+  name = "leetcode169",
+  srcs = [
+    "leetcode169_majority_element.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 226: Invert Binary Tree
 cc_test(
   name = "leetcode226",
@@ -72,17 +83,6 @@ cc_test(
   ],
   deps = [
     ":leetcode_tree_node",
-    "@com_google_googletest//:gtest_main",
-  ]
-)
-
-# Leetcode 292: Nim Game
-cc_test(
-  name = "leetcode292",
-  srcs = [
-    "leetcode292_nim_game.cc"
-  ],
-  deps = [
     "@com_google_googletest//:gtest_main",
   ]
 )
@@ -99,11 +99,22 @@ cc_test(
   ]
 )
 
-# Leetcode 169: Majority Element
+# Leetcode 242: Valid Anagram
 cc_test(
-  name = "leetcode169",
+  name = "leetcode242",
   srcs = [
-    "leetcode169_majority_element.cc"
+    "leetcode242_valid_anagram.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
+# Leetcode 292: Nim Game
+cc_test(
+  name = "leetcode292",
+  srcs = [
+    "leetcode292_nim_game.cc"
   ],
   deps = [
     "@com_google_googletest//:gtest_main",
