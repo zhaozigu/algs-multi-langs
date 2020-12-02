@@ -110,6 +110,7 @@ LeetCode 上的题目都是测试友好型的，提供的代码框架已经分�
 | [LeetCode104 Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [C++](src/leetcode/leetcode104_maximum_depth_of_binary_tree.cc) | 基本二叉树性质；递归 |
 | [LeetCode111 Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [C++](src/leetcode/leetcode111_minimum_depth_of_binary_tree.cc) | 基本二叉树性质；递归 |
 | [LeetCode169 Majority Element](https://leetcode-cn.com/problems/majority-element/)                         | [C++](src/leetcode/leetcode169_majority_element.cc)             | 众数；摩尔投票法     |
+| [LeetCode171 Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number/)       | [C++](src/leetcode/leetcode171_excel_sheet_column_number.cc)    | 二十六进制转十进制   |
 | [LeetCode226 Invert Binary Tree](https://leetcode-cn.com/problems/Invert-Binary-Tree/)                     | [C++](src/leetcode/leetcode226_invert_binary_tree.cc)           | 二叉树结构；递归；   |
 | [LeetCode237 Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-List/) | [C++](src/leetcode/leetcode237_delete_node_in_a_linked_list.cc) | 简单链表基础题       |
 | [LeetCode242 Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/)                               | [C++](src/leetcode/leetcode242_valid_anagram.cc)                | 计数比较             |

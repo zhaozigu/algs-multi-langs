@@ -75,6 +75,17 @@ cc_test(
   ]
 )
 
+# Leetcode 171: Excel Sheet Column Number
+cc_test(
+  name = "leetcode171",
+  srcs = [
+    "leetcode171_excel_sheet_column_number.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 226: Invert Binary Tree
 cc_test(
   name = "leetcode226",
