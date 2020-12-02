@@ -25,6 +25,7 @@ cc_test(
   ]
 )
 
+
 # POJ1004: Financial Management
 cc_library(
   name = "poj1004_solve",
@@ -52,6 +53,33 @@ cc_test(
   ]
 )
 
+
+# POJ1005: I Think I Need a Houseboat
+cc_library(
+  name = "poj1005_solve",
+  hdrs = ["poj1005.hpp"]
+)
+
+cc_binary(
+  name = "poj1005",
+  srcs = [
+    "poj1005.cc"
+  ],
+  deps = [
+    ":poj1005_solve"
+  ]
+)
+
+cc_test(
+  name = "poj1005_test",
+  srcs = [
+    "poj1005_test.cc"
+  ],
+  deps = [
+    ":poj1005_solve",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
 
 # POJ1007: DNA Sorting
 cc_library(
