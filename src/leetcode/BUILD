@@ -86,6 +86,17 @@ cc_test(
   ]
 )
 
+# Leetcode 191: Number of 1 Bits
+cc_test(
+  name = "leetcode191",
+  srcs = [
+    "leetcode191_numbers_of_1_bits.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 226: Invert Binary Tree
 cc_test(
   name = "leetcode226",
