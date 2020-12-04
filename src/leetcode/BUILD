@@ -109,6 +109,18 @@ cc_test(
   ]
 )
 
+# Leetcode 206: Reverse Linked List
+cc_test(
+  name = "leetcode206",
+  srcs = [
+    "leetcode206_reverse_linked_list.cc"
+  ],
+  deps = [
+    ":leetcode_link_list_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 226: Invert Binary Tree
 cc_test(
   name = "leetcode226",
