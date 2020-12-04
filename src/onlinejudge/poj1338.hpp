@@ -20,6 +20,9 @@ public:
   }
 
 private:
+  Solve(const Solve &);
+  Solve &operator=(const Solve &);
+
   // 返回三个数的最小值
   int ThreeMin(int a, int b, int c)
   {
