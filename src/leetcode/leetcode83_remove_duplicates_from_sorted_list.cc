@@ -1,6 +1,7 @@
 // https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/
-using namespace std;
 #include "linklist.hpp"
+
+using namespace std;
 
 class Solution
 {

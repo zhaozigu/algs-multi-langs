@@ -28,7 +28,7 @@ void InsertNextElem(ListNode *cur, int arg)
   }
 }
 
-ListNode *PushBackList(ListNode *tail, const vector<int> &ins)
+ListNode *PushBackList(ListNode *tail, const std::vector<int> &ins)
 {
   ListNode *cur = tail;
   for (auto i : ins)
@@ -39,7 +39,7 @@ ListNode *PushBackList(ListNode *tail, const vector<int> &ins)
   return tail;
 }
 
-vector<int> LinkToArray(ListNode *head)
+std::vector<int> LinkToArray(ListNode *head)
 {
   std::vector<int> res = {};
   for (auto cur = head; cur != nullptr; cur = cur->next)
