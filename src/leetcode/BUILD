@@ -28,6 +28,18 @@ cc_test(
   ]
 )
 
+# Leetcode 83: Remove Duplicates From Sorted List
+cc_test(
+  name = "leetcode83",
+  srcs = [
+    "leetcode83_remove_duplicates_from_sorted_list.cc"
+  ],
+  deps = [
+    ":leetcode_link_list_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 100: Same Tree
 cc_test(
   name = "leetcode100",
