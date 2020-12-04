@@ -10,6 +10,7 @@ TEST(treenode, BuildLinkedListByOneElement)
   vector<int> ins = {2};
   vector<int> out = {1, 2};
   ASSERT_EQ(out, LinkToArray(PushBackList(&root, ins)));
+  DestroyLinkList(&root);
 }
 
 TEST(treenode, BuildLinkedListByMultiElements)
@@ -18,5 +19,6 @@ TEST(treenode, BuildLinkedListByMultiElements)
   vector<int> ins = {2, 3, 4, 5};
   vector<int> out = {1, 2, 3, 4, 5};
   ASSERT_EQ(out, LinkToArray(PushBackList(&root, ins)));
-}
 
+  DestroyLinkList(&root);
+}
