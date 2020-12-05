@@ -106,6 +106,7 @@ LeetCode 上的题目都是测试友好型的，提供的代码框架已经分�
 
 | 题目                                                                                                                  | 参考解法                                                             | 备注                     |
 | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------ |
+| [LeetCode27 Remove Element](https://leetcode-cn.com/problems/remove-element/)                                         | [C++](src/leetcode/leetcode27_remove_element.cc)                     | 简单的数组操作           |
 | [LeetCode83 Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [C++](src/leetcode/leetcode83_remove_duplicates_from_sorted_list.cc) | 链表操作                 |
 | [LeetCode100 Same Tree](https://leetcode-cn.com/problems/same-tree/)                                                  | [C++](src/leetcode/leetcode100_same_tree.cc)                         | 基本二叉树性质；递归     |
 | [LeetCode104 Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)            | [C++](src/leetcode/leetcode104_maximum_depth_of_binary_tree.cc)      | 基本二叉树性质；递归     |

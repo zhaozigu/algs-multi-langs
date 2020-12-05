@@ -28,6 +28,18 @@ cc_test(
   ]
 )
 
+# Leetcode 27: Remove Element
+cc_test(
+  name = "leetcode27",
+  srcs = [
+    "leetcode27_remove_element.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
+
 # Leetcode 83: Remove Duplicates From Sorted List
 cc_test(
   name = "leetcode83",
