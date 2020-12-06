@@ -133,6 +133,17 @@ cc_test(
   ]
 )
 
+# Leetcode 217: Contains Duplicate
+cc_test(
+  name = "leetcode217",
+  srcs = [
+    "leetcode217_contains_duplicate.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 226: Invert Binary Tree
 cc_test(
   name = "leetcode226",
