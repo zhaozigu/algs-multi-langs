@@ -85,6 +85,7 @@ bazel test src/alpha:MyAddTests_Cpp
 - [二叉树与二叉搜索树](src/bitree)
   - [二叉树结构](src/bitree/bitree.h)
   - [二叉树遍历](src/bitree/traverse.h)
+  - [二叉搜索树（AVL) ](src/bitree/bistree.h) | C 语言实现
 
 ### 算法
 
