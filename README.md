@@ -105,22 +105,23 @@ bazel test src/alpha:MyAddTests_Cpp
 
 LeetCode 上的题目都是测试友好型的，提供的代码框架已经分离了 IO。因此解法和测试用例可以放到一起。
 
-| 题目                                                                                                                  | 参考解法                                                             | 备注                     |
-| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------ |
-| [LeetCode27 Remove Element](https://leetcode-cn.com/problems/remove-element/)                                         | [C++](src/leetcode/leetcode27_remove_element.cc)                     | 简单的数组操作           |
-| [LeetCode83 Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [C++](src/leetcode/leetcode83_remove_duplicates_from_sorted_list.cc) | 链表操作                 |
-| [LeetCode100 Same Tree](https://leetcode-cn.com/problems/same-tree/)                                                  | [C++](src/leetcode/leetcode100_same_tree.cc)                         | 基本二叉树性质；递归     |
-| [LeetCode104 Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)            | [C++](src/leetcode/leetcode104_maximum_depth_of_binary_tree.cc)      | 基本二叉树性质；递归     |
-| [LeetCode111 Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)            | [C++](src/leetcode/leetcode111_minimum_depth_of_binary_tree.cc)      | 基本二叉树性质；递归     |
-| [LeetCode169 Majority Element](https://leetcode-cn.com/problems/majority-element/)                                    | [C++](src/leetcode/leetcode169_majority_element.cc)                  | 众数；摩尔投票法         |
-| [LeetCode171 Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number/)                  | [C++](src/leetcode/leetcode171_excel_sheet_column_number.cc)         | 二十六进制转十进制       |
-| [LeetCode191 Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)                                    | [C++](src/leetcode/leetcode191_numbers_of_1_bits.cc)                 | 位运算                   |
-| [LeetCode206 Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                              | [C++](src/leetcode/leetcode206_reverse_linked_list.cc)               | **反转单链表**（面试题） |
-| [LeetCode217 Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)                                | [C++](src/leetcode/leetcode217_contains_duplicate.cc)                | 简单题，集合判定         |
-| [LeetCode226 Invert Binary Tree](https://leetcode-cn.com/problems/Invert-Binary-Tree/)                                | [C++](src/leetcode/leetcode226_invert_binary_tree.cc)                | 二叉树结构；递归；       |
-| [LeetCode237 Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-List/)            | [C++](src/leetcode/leetcode237_delete_node_in_a_linked_list.cc)      | 简单链表基础题           |
-| [LeetCode242 Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/)                                          | [C++](src/leetcode/leetcode242_valid_anagram.cc)                     | 计数比较                 |
-| [LeetCode292 Nim Game](https://leetcode-cn.com/problems/nim-game/)                                                    | [C++](src/leetcode/leetcode292_nim_game.cc)                          | 简单规律题；Nim 博弈     |
+| 题目                                                                                                                  | 参考解法                                                             | 备注                       |
+| --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------- |
+| [LeetCode27 Remove Element](https://leetcode-cn.com/problems/remove-element/)                                         | [C++](src/leetcode/leetcode27_remove_element.cc)                     | 简单的数组操作             |
+| [LeetCode70 Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)                                       | [C++](src/leetcode/leetcode70_climbing_stairs.cc)                    | 斐波那契数列（最简单的 dp) |
+| [LeetCode83 Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [C++](src/leetcode/leetcode83_remove_duplicates_from_sorted_list.cc) | 链表操作                   |
+| [LeetCode100 Same Tree](https://leetcode-cn.com/problems/same-tree/)                                                  | [C++](src/leetcode/leetcode100_same_tree.cc)                         | 基本二叉树性质；递归       |
+| [LeetCode104 Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)            | [C++](src/leetcode/leetcode104_maximum_depth_of_binary_tree.cc)      | 基本二叉树性质；递归       |
+| [LeetCode111 Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)            | [C++](src/leetcode/leetcode111_minimum_depth_of_binary_tree.cc)      | 基本二叉树性质；递归       |
+| [LeetCode169 Majority Element](https://leetcode-cn.com/problems/majority-element/)                                    | [C++](src/leetcode/leetcode169_majority_element.cc)                  | 众数；摩尔投票法           |
+| [LeetCode171 Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number/)                  | [C++](src/leetcode/leetcode171_excel_sheet_column_number.cc)         | 二十六进制转十进制         |
+| [LeetCode191 Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits/)                                    | [C++](src/leetcode/leetcode191_numbers_of_1_bits.cc)                 | 位运算                     |
+| [LeetCode206 Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list/)                              | [C++](src/leetcode/leetcode206_reverse_linked_list.cc)               | **反转单链表**（面试题）   |
+| [LeetCode217 Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate/)                                | [C++](src/leetcode/leetcode217_contains_duplicate.cc)                | 简单题，集合判定           |
+| [LeetCode226 Invert Binary Tree](https://leetcode-cn.com/problems/Invert-Binary-Tree/)                                | [C++](src/leetcode/leetcode226_invert_binary_tree.cc)                | 二叉树结构；递归；         |
+| [LeetCode237 Delete Node in a Linked List](https://leetcode-cn.com/problems/delete-node-in-a-linked-List/)            | [C++](src/leetcode/leetcode237_delete_node_in_a_linked_list.cc)      | 简单链表基础题             |
+| [LeetCode242 Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/)                                          | [C++](src/leetcode/leetcode242_valid_anagram.cc)                     | 计数比较                   |
+| [LeetCode292 Nim Game](https://leetcode-cn.com/problems/nim-game/)                                                    | [C++](src/leetcode/leetcode292_nim_game.cc)                          | 简单规律题；Nim 博弈       |
 
 #### 面试题解法
 

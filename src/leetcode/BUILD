@@ -39,6 +39,16 @@ cc_test(
   ]
 )
 
+# Leetcode 70: Climbing Stairs
+cc_test(
+  name = "leetcode70",
+  srcs = [
+    "leetcode70_climbing_stairs.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
 
 # Leetcode 83: Remove Duplicates From Sorted List
 cc_test(
