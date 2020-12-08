@@ -189,6 +189,17 @@ cc_test(
   ]
 )
 
+# Leetcode 263: Ugly number
+cc_test(
+  name = "leetcode263",
+  srcs = [
+    "leetcode263_ugly_number.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 292: Nim Game
 cc_test(
   name = "leetcode292",
