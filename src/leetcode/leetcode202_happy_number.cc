@@ -11,8 +11,8 @@ public:
       int temp = 0;
       while (n)
       {
-        temp = temp + (n % 10) * (n % 10);
-        n = n / 10;
+        temp += (n % 10) * (n % 10);
+        n /= 10;
       }
       n = temp;
       if (cnt == 10)
