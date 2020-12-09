@@ -131,6 +131,17 @@ cc_test(
   ]
 )
 
+# Leetcode 202: Happy Number
+cc_test(
+  name = "leetcode202",
+  srcs = [
+    "leetcode202_happy_number.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 206: Reverse Linked List
 cc_test(
   name = "leetcode206",
