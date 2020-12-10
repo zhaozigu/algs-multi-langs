@@ -177,6 +177,17 @@ cc_test(
   ]
 )
 
+# Leetcode 231: Power of Two
+cc_test(
+  name = "leetcode231",
+  srcs = [
+    "leetcode231_power_of_two.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 237: Delete Node in a Linked List
 cc_test(
   name = "leetcode237",
