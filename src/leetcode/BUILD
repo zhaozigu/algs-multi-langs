@@ -28,6 +28,17 @@ cc_test(
   ]
 )
 
+# Leetcode 13: Roman to Integer
+cc_test(
+  name = "leetcode13",
+  srcs = [
+    "leetcode13_roman_to_integer.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 27: Remove Element
 cc_test(
   name = "leetcode27",
