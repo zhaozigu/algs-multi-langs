@@ -232,3 +232,14 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+# Leetcode 326: Power of Two
+cc_test(
+  name = "leetcode326",
+  srcs = [
+    "leetcode326_power_of_three.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)

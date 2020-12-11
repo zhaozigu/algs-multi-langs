@@ -125,6 +125,7 @@ LeetCode 上的题目都是测试友好型的，提供的代码框架已经分�
 | [LeetCode242 Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/)                                          | [C++](src/leetcode/leetcode242_valid_anagram.cc)                     | 计数比较                   |
 | [LeetCode263 Ugly Number](https://leetcode-cn.com/problems/ugly-number)                                               | [C++](src/leetcode/leetcode263_ugly_number.cc)                       | 简单数论（丑数）           |
 | [LeetCode292 Nim Game](https://leetcode-cn.com/problems/nim-game/)                                                    | [C++](src/leetcode/leetcode292_nim_game.cc)                          | 简单规律题；Nim 博弈       |
+| [LeetCode326 Power of Three](https://leetcode-cn.com/problems/power-of-three/)                                        | [C++](src/leetcode/leetcode326_power_of_three.cc)                    | 简单的指数运算             |
 
 #### 面试题解法
 
