@@ -22,3 +22,11 @@ TEST(treenode, BuildLinkedListByMultiElements)
 
   DestroyLinkList(&root);
 }
+
+TEST(treenode, BuildLinkedListByDefaultConstructFunction)
+{
+  ListNode root;
+  ASSERT_EQ(0, root.val);
+  ASSERT_EQ(nullptr, root.next);
+  DestroyLinkList(&root);
+}
