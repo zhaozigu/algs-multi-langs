@@ -39,6 +39,18 @@ cc_test(
   ]
 )
 
+# Leetcode 24: Swap Nodes in Pairs
+cc_test(
+  name = "leetcode24",
+  srcs = [
+    "leetcode24_swap_nodes_in_pairs.cc"
+  ],
+  deps = [
+    ":leetcode_link_list_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 27: Remove Element
 cc_test(
   name = "leetcode27",
