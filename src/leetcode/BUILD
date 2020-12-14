@@ -62,6 +62,17 @@ cc_test(
   ]
 )
 
+# Leetcode 66: Plus One
+cc_test(
+  name = "leetcode66",
+  srcs = [
+    "leetcode66_plus_one.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 70: Climbing Stairs
 cc_test(
   name = "leetcode70",
