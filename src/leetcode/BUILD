@@ -277,3 +277,14 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+# Leetcode 338: Counting Bits
+cc_test(
+  name = "leetcode338",
+  srcs = [
+    "leetcode338_counting_bits.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
