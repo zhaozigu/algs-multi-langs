@@ -222,6 +222,18 @@ cc_test(
   ]
 )
 
+# Leetcode 235: Lowest Common Ancestor of a Binary Search Tree
+cc_test(
+  name = "leetcode235",
+  srcs = [
+    "leetcode235_lowest_common_ancestor_of_a_binary_search_tree.cc"
+  ],
+  deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 237: Delete Node in a Linked List
 cc_test(
   name = "leetcode237",
