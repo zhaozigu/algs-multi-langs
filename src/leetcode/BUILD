@@ -165,6 +165,17 @@ cc_test(
   ]
 )
 
+# Leetcode 172: Factorial Trailing Zeroes
+cc_test(
+  name = "leetcode172",
+  srcs = [
+    "leetcode172_factorial_trailing_zeroes.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 191: Number of 1 Bits
 cc_test(
   name = "leetcode191",
