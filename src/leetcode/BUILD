@@ -290,6 +290,17 @@ cc_test(
   ]
 )
 
+# Leetcode 268: Missing Number
+cc_test(
+  name = "leetcode268",
+  srcs = [
+    "leetcode268_missing_number.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 292: Nim Game
 cc_test(
   name = "leetcode292",
