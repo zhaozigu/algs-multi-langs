@@ -143,6 +143,17 @@ cc_test(
   ]
 )
 
+# Leetcode 137: Single Number II
+cc_test(
+  name = "leetcode137",
+  srcs = [
+    "leetcode137_single_number_ii.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 169: Majority Element
 cc_test(
   name = "leetcode169",
