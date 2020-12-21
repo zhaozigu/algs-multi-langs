@@ -28,6 +28,17 @@ cc_test(
   ]
 )
 
+# Leetcode 1: Two Sum
+cc_test(
+  name = "leetcode1",
+  srcs = [
+    "leetcode1_two_sum.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 13: Roman to Integer
 cc_test(
   name = "leetcode13",
