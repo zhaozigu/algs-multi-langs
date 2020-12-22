@@ -143,6 +143,17 @@ cc_test(
   ]
 )
 
+# Leetcode 121: Best Time to Buy and Sell Stock
+cc_test(
+  name = "leetcode121",
+  srcs = [
+    "leetcode121_best_time_to_buy_and_sell_stock.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 136: Single Number
 cc_test(
   name = "leetcode136",
