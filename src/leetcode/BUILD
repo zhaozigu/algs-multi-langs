@@ -143,6 +143,17 @@ cc_test(
   ]
 )
 
+# Leetcode 119: Pascal's Triangle II
+cc_test(
+  name = "leetcode119",
+  srcs = [
+    "leetcode119_pascal_triangle_ii.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 121: Best Time to Buy and Sell Stock
 cc_test(
   name = "leetcode121",
