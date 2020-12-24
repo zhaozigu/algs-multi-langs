@@ -187,6 +187,17 @@ cc_test(
   ]
 )
 
+# Leetcode 162: Find Peak Element
+cc_test(
+  name = "leetcode162",
+  srcs = [
+    "leetcode162_find_peak_element.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 169: Majority Element
 cc_test(
   name = "leetcode169",
