@@ -334,6 +334,17 @@ cc_test(
   ]
 )
 
+# Leetcode 238: Product of Array Except Self
+cc_test(
+  name = "leetcode238",
+  srcs = [
+    "leetcode238_product_of_array_except_self.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 242: Valid Anagram
 cc_test(
   name = "leetcode242",
