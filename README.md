@@ -141,6 +141,7 @@ LeetCode 上的题目都是测试友好型的，提供的代码框架已经分�
 | [LeetCode292 Nim Game](https://leetcode-cn.com/problems/nim-game/)                                                                             | [C++](src/leetcode/leetcode292_nim_game.cc)                                       | 简单规律题；Nim 博弈               |
 | [LeetCode326 Power of Three](https://leetcode-cn.com/problems/power-of-three/)                                                                 | [C++](src/leetcode/leetcode326_power_of_three.cc)                                 | 简单的指数运算                     |
 | [LeetCode338 Counting Bits](https://leetcode-cn.com/problems/counting-bits/)                                                                   | [C++](src/leetcode/leetcode338_counting_bits.cc)                                  | 类似 dp 的位运算递推思路           |
+| [LeetCode717 1-bit and 2-bit Characters](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)                                         | [C++](src/leetcode/leetcode717_1-bit_and_2-bit_characters)                        | 简单题                             |
 
 #### 面试题解法
 

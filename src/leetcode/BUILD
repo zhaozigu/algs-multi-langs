@@ -410,3 +410,14 @@ cc_test(
     "@com_google_googletest//:gtest_main",
   ]
 )
+
+# Leetcode 717: 1-bit and 2-bit Characters
+cc_test(
+  name = "leetcode717",
+  srcs = [
+    "leetcode717_1-bit_and_2-bit_characters.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
