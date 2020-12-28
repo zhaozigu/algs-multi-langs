@@ -264,6 +264,17 @@ cc_test(
   ]
 )
 
+# Leetcode 204: Count Primes
+cc_test(
+  name = "leetcode204",
+  srcs = [
+    "leetcode204_count_primes.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 206: Reverse Linked List
 cc_test(
   name = "leetcode206",
