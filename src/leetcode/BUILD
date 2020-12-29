@@ -242,6 +242,18 @@ cc_test(
   ]
 )
 
+# Leetcode 189: Rotate Array
+cc_test(
+  name = "leetcode189",
+  srcs = [
+    "leetcode189_rotate_array.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
+
 # Leetcode 191: Number of 1 Bits
 cc_test(
   name = "leetcode191",
