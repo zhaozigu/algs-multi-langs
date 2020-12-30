@@ -84,6 +84,17 @@ cc_test(
   ]
 )
 
+# Leetcode 62: Unique Paths
+cc_test(
+  name = "leetcode62",
+  srcs = [
+    "leetcode62_unique_paths.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 70: Climbing Stairs
 cc_test(
   name = "leetcode70",
