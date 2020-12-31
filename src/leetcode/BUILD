@@ -39,6 +39,17 @@ cc_test(
   ]
 )
 
+# Leetcode 9: Palindrome Number
+cc_test(
+  name = "leetcode9",
+  srcs = [
+    "leetcode9_palindrome_number.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 13: Roman to Integer
 cc_test(
   name = "leetcode13",
