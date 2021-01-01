@@ -84,6 +84,17 @@ cc_test(
   ]
 )
 
+# Leetcode 36: Valid Sudoku
+cc_test(
+  name = "leetcode36",
+  srcs = [
+    "leetcode36_valid_sudoku.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 66: Plus One
 cc_test(
   name = "leetcode66",
