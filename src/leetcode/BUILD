@@ -176,6 +176,18 @@ cc_test(
   ]
 )
 
+# Leetcode 112: Path Sum
+cc_test(
+  name = "leetcode112",
+  srcs = [
+    "leetcode112_path_sum.cc"
+  ],
+  deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 119: Pascal's Triangle II
 cc_test(
   name = "leetcode119",
