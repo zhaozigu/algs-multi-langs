@@ -84,6 +84,17 @@ cc_test(
   ]
 )
 
+# Leetcode 35: Search Insert Position
+cc_test(
+  name = "leetcode35",
+  srcs = [
+    "leetcode35_search_insert_position.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 36: Valid Sudoku
 cc_test(
   name = "leetcode36",
