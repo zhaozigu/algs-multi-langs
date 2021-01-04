@@ -366,6 +366,17 @@ cc_test(
   ]
 )
 
+# Leetcode 223: Rectangle Area
+cc_test(
+  name = "leetcode223",
+  srcs = [
+    "leetcode223_rectangle_area.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 226: Invert Binary Tree
 cc_test(
   name = "leetcode226",
