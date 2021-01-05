@@ -366,6 +366,17 @@ cc_test(
   ]
 )
 
+# Leetcode 219: Contains Duplicate II
+cc_test(
+  name = "leetcode219",
+  srcs = [
+    "leetcode219_contains_duplicate_ii.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 223: Rectangle Area
 cc_test(
   name = "leetcode223",
