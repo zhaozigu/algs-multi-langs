@@ -151,6 +151,17 @@ cc_test(
   ]
 )
 
+# Leetcode 88: Merge Sorted Array
+cc_test(
+  name = "leetcode88",
+  srcs = [
+    "leetcode88_merge_sorted_array.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 100: Same Tree
 cc_test(
   name = "leetcode100",
