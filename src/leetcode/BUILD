@@ -320,6 +320,17 @@ cc_test(
   ]
 )
 
+# Leetcode 190: Reverse Bits
+cc_test(
+  name = "leetcode190",
+  srcs = [
+    "leetcode190_reverse_bits.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 
 # Leetcode 191: Number of 1 Bits
 cc_test(
