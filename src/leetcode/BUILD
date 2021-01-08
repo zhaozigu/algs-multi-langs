@@ -61,6 +61,18 @@ cc_test(
   ]
 )
 
+# Leetcode 20: Valid Parentheses
+cc_test(
+  name = "leetcode20",
+  srcs = [
+    "leetcode20_valid_parentheses.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
+
 # Leetcode 24: Swap Nodes in Pairs
 cc_test(
   name = "leetcode24",
