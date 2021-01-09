@@ -118,6 +118,17 @@ cc_test(
   ]
 )
 
+# Leetcode 58: Length of Last Word
+cc_test(
+  name = "leetcode58",
+  srcs = [
+    "leetcode58_length_of_last_word.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 66: Plus One
 cc_test(
   name = "leetcode66",
