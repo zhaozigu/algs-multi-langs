@@ -118,6 +118,17 @@ cc_test(
   ]
 )
 
+# Leetcode 42: Power of Four
+cc_test(
+  name = "leetcode42",
+  srcs = [
+    "leetcode42_power_of_four.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 58: Length of Last Word
 cc_test(
   name = "leetcode58",
