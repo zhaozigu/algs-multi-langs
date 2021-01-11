@@ -61,6 +61,17 @@ cc_test(
   ]
 )
 
+# Leetcode 14: Longest Common Prefix
+cc_test(
+  name = "leetcode14",
+  srcs = [
+    "leetcode14_longest_common_prefix.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 20: Valid Parentheses
 cc_test(
   name = "leetcode20",
