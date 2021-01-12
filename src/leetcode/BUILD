@@ -107,6 +107,17 @@ cc_test(
   ]
 )
 
+# Leetcode 28: Implement strStr()
+cc_test(
+  name = "leetcode28",
+  srcs = [
+    "leetcode28_implement_strstr.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 35: Search Insert Position
 cc_test(
   name = "leetcode35",
