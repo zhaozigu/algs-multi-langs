@@ -466,6 +466,17 @@ cc_test(
   ]
 )
 
+# Leetcode 225: Implement Stack using Queues
+cc_test(
+  name = "leetcode225",
+  srcs = [
+    "leetcode225_implement_stack_using_queues.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 226: Invert Binary Tree
 cc_test(
   name = "leetcode226",
