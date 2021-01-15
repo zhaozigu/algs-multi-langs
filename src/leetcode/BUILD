@@ -601,6 +601,17 @@ cc_test(
   ]
 )
 
+# Leetcode 343: Integer Break
+cc_test(
+  name = "leetcode343",
+  srcs = [
+    "leetcode343_integer_break.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 344: Reverse String
 cc_test(
   name = "leetcode344",
