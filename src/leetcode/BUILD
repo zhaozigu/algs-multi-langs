@@ -568,6 +568,17 @@ cc_test(
   ]
 )
 
+# Leetcode 278: First Bad Version
+cc_test(
+  name = "leetcode278",
+  srcs = [
+    "leetcode278_first_bad_version.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 292: Nim Game
 cc_test(
   name = "leetcode292",
