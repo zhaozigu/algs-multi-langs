@@ -218,6 +218,17 @@ cc_test(
   ]
 )
 
+# Leetcode 96: Unique Binary Search Trees
+cc_test(
+  name = "leetcode96",
+  srcs = [
+    "leetcode96_unique_binary_search_trees.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 100: Same Tree
 cc_test(
   name = "leetcode100",
