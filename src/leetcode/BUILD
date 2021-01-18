@@ -151,6 +151,17 @@ cc_test(
   ]
 )
 
+# Leetcode 55: Jump Game
+cc_test(
+  name = "leetcode55",
+  srcs = [
+    "leetcode55_jump_game.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 58: Length of Last Word
 cc_test(
   name = "leetcode58",
