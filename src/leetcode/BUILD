@@ -321,6 +321,17 @@ cc_test(
   ]
 )
 
+# Leetcode 134: Gas Station
+cc_test(
+  name = "leetcode134",
+  srcs = [
+    "leetcode134_gas_station.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 136: Single Number
 cc_test(
   name = "leetcode136",
