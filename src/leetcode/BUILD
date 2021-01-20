@@ -39,6 +39,17 @@ cc_test(
   ]
 )
 
+# Leetcode 7: Reverse Integer
+cc_test(
+  name = "leetcode7",
+  srcs = [
+    "leetcode7_reverse_integer.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 9: Palindrome Number
 cc_test(
   name = "leetcode9",
