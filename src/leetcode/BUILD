@@ -623,6 +623,17 @@ cc_test(
   ]
 )
 
+# Leetcode 279: Perfect Squares
+cc_test(
+  name = "leetcode279",
+  srcs = [
+    "leetcode279_perfect_squares.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 292: Nim Game
 cc_test(
   name = "leetcode292",
