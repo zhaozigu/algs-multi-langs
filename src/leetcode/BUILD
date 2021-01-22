@@ -443,6 +443,18 @@ cc_test(
   ]
 )
 
+# Leetcode 199: Binary Tree Right Side View
+cc_test(
+  name = "leetcode199",
+  srcs = [
+    "leetcode199_binary_tree_right_side_view.cc"
+  ],
+  deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 202: Happy Number
 cc_test(
   name = "leetcode202",
