@@ -39,6 +39,17 @@ cc_test(
   ]
 )
 
+# Leetcode 3: Longest Substring Without Repeating Characters
+cc_test(
+  name = "leetcode3",
+  srcs = [
+    "leetcode3_longest_substring_without_repeating_characters.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 7: Reverse Integer
 cc_test(
   name = "leetcode7",
