@@ -184,6 +184,17 @@ cc_test(
   ]
 )
 
+# Leetcode 52: N-Queens II
+cc_test(
+  name = "leetcode52",
+  srcs = [
+    "leetcode52_n_queens_ii.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 55: Jump Game
 cc_test(
   name = "leetcode55",
