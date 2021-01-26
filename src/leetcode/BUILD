@@ -635,6 +635,17 @@ cc_test(
   ]
 )
 
+# Leetcode 258: Add Digits
+cc_test(
+  name = "leetcode258",
+  srcs = [
+    "leetcode258_add_digits.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 263: Ugly number
 cc_test(
   name = "leetcode263",
