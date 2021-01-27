@@ -296,6 +296,19 @@ cc_test(
   ]
 )
 
+
+# Leetcode 103: Binary Tree Zigzag Level Order Traversal
+cc_test(
+  name = "leetcode103",
+  srcs = [
+    "leetcode103_binary_tree_zigzag_level_order_traversal.cc"
+  ],
+  deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 104: Maximum Depth of Binary Tree
 cc_test(
   name = "leetcode104",
