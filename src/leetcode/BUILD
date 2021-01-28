@@ -758,6 +758,17 @@ cc_test(
   ]
 )
 
+# Leetcode 387: First Unique Character in a String
+cc_test(
+  name = "leetcode387",
+  srcs = [
+    "leetcode387_first_unique_character_in_a_string.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 717: 1-bit and 2-bit Characters
 cc_test(
   name = "leetcode717",
