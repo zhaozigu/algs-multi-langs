@@ -758,6 +758,17 @@ cc_test(
   ]
 )
 
+# Leetcode 383: Ransom Note
+cc_test(
+  name = "leetcode383",
+  srcs = [
+    "leetcode383_ransom_note.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 387: First Unique Character in a String
 cc_test(
   name = "leetcode387",

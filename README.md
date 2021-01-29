@@ -172,6 +172,8 @@ LeetCode 上的题目都是测试友好型的，提供的代码框架已经分�
 | [LeetCode338 Counting Bits](https://leetcode-cn.com/problems/counting-bits/)                                                                   | [C++](src/leetcode/leetcode338_counting_bits.cc)                                  | 类似 dp 的位运算递推思路            |
 | [LeetCode343 Integer Break](https://leetcode-cn.com/problems/integer-break/)                                                                   | [C++](src/leetcode/leetcode343_integer_break.cc)                                  | 乘方比乘法大，所以拆成 3 次方       |
 | [LeetCode344 Reverse String](https://leetcode-cn.com/problems/reverse-string/)                                                                 | [C++](src/leetcode/leetcode344_reverse_string.cc)                                 | 简单交换字符                        |
+| [LeetCode383 Ransom Note](https://leetcode-cn.com/problems/ransom-note/)                                                                       | [C++](src/leetcode/leetcode383_ransom_note.cc)                                    | 数组计数                            |
+| [LeetCode387 Reverse String](https://leetcode-cn.com/problems/first-unique-character-in-a-string/)                                             | [C++](src/leetcode/leetcode387_first_unique_character_in_a_string.cc)             | 数组计数                            |
 | [LeetCode717 1-bit and 2-bit Characters](https://leetcode-cn.com/problems/1-bit-and-2-bit-characters/)                                         | [C++](src/leetcode/leetcode717_1-bit_and_2-bit_characters)                        | 简单题                              |
 
 #### 面试题解法
