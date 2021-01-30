@@ -780,6 +780,17 @@ cc_test(
   ]
 )
 
+# Leetcode 485: Max Consecutive Ones
+cc_test(
+  name = "leetcode485",
+  srcs = [
+    "leetcode485_max_consecutive_ones.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 717: 1-bit and 2-bit Characters
 cc_test(
   name = "leetcode717",
