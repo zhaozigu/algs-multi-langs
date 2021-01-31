@@ -780,6 +780,17 @@ cc_test(
   ]
 )
 
+# Leetcode 476: Number Complement
+cc_test(
+  name = "leetcode476",
+  srcs = [
+    "leetcode476_number_complement.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 485: Max Consecutive Ones
 cc_test(
   name = "leetcode485",
