@@ -780,6 +780,17 @@ cc_test(
   ]
 )
 
+# Leetcode 448: Find All Numbers Disappeared in an Array
+cc_test(
+  name = "leetcode448",
+  srcs = [
+    "leetcode448_find_all_numbers_disappeared_in_an_array.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 476: Number Complement
 cc_test(
   name = "leetcode476",
