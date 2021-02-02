@@ -780,6 +780,17 @@ cc_test(
   ]
 )
 
+# Leetcode 438: Find All Anagrams in a String
+cc_test(
+  name = "leetcode438",
+  srcs = [
+    "leetcode438_find_all_anagrams_in_a_string.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 448: Find All Numbers Disappeared in an Array
 cc_test(
   name = "leetcode448",
