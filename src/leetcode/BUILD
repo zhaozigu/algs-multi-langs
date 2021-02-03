@@ -758,6 +758,17 @@ cc_test(
   ]
 )
 
+# Leetcode 374: Guess Number Higher or Lower
+cc_test(
+  name = "leetcode374",
+  srcs = [
+    "leetcode374_guess_number_higher_or_lower.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 383: Ransom Note
 cc_test(
   name = "leetcode383",
