@@ -591,6 +591,17 @@ cc_test(
   ]
 )
 
+# Leetcode 229: Majority Element II
+cc_test(
+  name = "leetcode229",
+  srcs = [
+    "leetcode229_majority_element_ii.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 231: Power of Two
 cc_test(
   name = "leetcode231",
