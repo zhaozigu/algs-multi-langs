@@ -813,6 +813,17 @@ cc_test(
   ]
 )
 
+# Leetcode 442: Find All Duplicates in an Array
+cc_test(
+  name = "leetcode442",
+  srcs = [
+    "leetcode442_find_all_duplicates_in_an_array.cc"
+  ],
+  deps = [
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
 # Leetcode 448: Find All Numbers Disappeared in an Array
 cc_test(
   name = "leetcode448",
