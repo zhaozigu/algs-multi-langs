@@ -273,6 +273,19 @@ cc_test(
   ]
 )
 
+# Leetcode 94: Binary Tree Inorder Traversal
+cc_test(
+  name = "leetcode94",
+  srcs = [
+    "leetcode94_binary_tree_inorder_traversal.cc"
+  ],
+  deps = [
+    ":leetcode_tree_node",
+    "@com_google_googletest//:gtest_main",
+  ]
+)
+
+
 # Leetcode 96: Unique Binary Search Trees
 cc_test(
   name = "leetcode96",
