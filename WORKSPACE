@@ -34,7 +34,7 @@ junit_platform_java_repositories(
 # Google Benchmark
 http_archive(
   name = "com_google_benchmark",
-  urls = ["https://codeload.github.com/google/benchmark/zip/v1.5.2.zip"],
-  strip_prefix = "benchmark-1.5.2",
-  sha256 = "21e6e096c9a9a88076b46bd38c33660f565fa050ca427125f64c4a8bf60f336b",
+  urls = ["https://github.com/google/benchmark/archive/refs/tags/v1.6.0.zip"],
+  strip_prefix = "benchmark-1.6.0",
+  sha256 = "3da225763533aa179af8438e994842be5ca72e4a7fed4d7976dc66c8c4502f58",
 )
