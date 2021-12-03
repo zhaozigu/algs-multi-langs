@@ -19,7 +19,7 @@ TEST(testPoj1004, sampleInputByProblem)
       1.75,
       NAN};
   Solve solve;
-  for (int i = 0; !isnan(ins[i]); i++)
+  for (int i = 0; !std::isnan(ins[i]); i++)
   {
     solve.Add(ins[i]);
   }
